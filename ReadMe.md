@@ -21,11 +21,11 @@ The features are trained with XGBoost classifier.
 
 
 Results (Transactional)
-
-
-        False   True
-False [[52632  6326]
-True  [  133 58806]]
+       
+|         | False | True  |
+|---------|-------|-------|
+| **False** | 52632 | 6326  |
+| **True**  | 133   | 58806 |
 
 F1  Score (Churn=False) = 0.94
 F1  Scrore(Churn=True) = 0.95
@@ -60,8 +60,11 @@ The features are trained with XGBoost classifier.
 Results
 
 AUC-ROC: 0.9956511782022617
-[[183039    437]
- [   481   2658]]
+|         | False | True  |
+|---------|-------|-------|
+| **False** | 183039 | 437  |
+| **True**  | 481   | 2658 |
+
               precision    recall  f1-score   support
 
          0.0       1.00      1.00      1.00    183476
